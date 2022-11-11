@@ -60,10 +60,10 @@ export default function SideMenu() {
         </button>
       </div>
 
-      <div className="container mx-8">
+      <div className="container flex flex-col mx-8">
         {SideMenuList.map((menu, idx) => {
           return (
-            <SideMenuItem key={idx} icon={menu.icon} idx={idx} title={menu.icon} selected={selectedSideMenu === idx} handleClick={handleClick(idx)} />
+            <SideMenuItem key={idx} select={menu.select} icon={menu.icon} idx={idx} title={menu.title} selected={selectedSideMenu === idx} handleClick={handleClick(idx)} />
           );
         })}
       </div>
