@@ -2,9 +2,9 @@ import React from "react";
 import Image from "next/image";
 import clsx from "clsx";
 
-export default function SideMenuItem({ icon, title }) {
+export default function SideMenuItem({ icon, title, selected }) {
   return (
-    <div className="flex my-5 items-center">
+    <div className="flex my-5 items-center hover:cursor-pointer">
       <Image
         src={icon}
         alt={title}
@@ -13,7 +13,7 @@ export default function SideMenuItem({ icon, title }) {
         className={clsx("")}
       />
 
-      <div className="col-span-3 ml-5 text-white">{title}</div>
+      <div className={"col-span-3 ml-5 " + (selected ? "text-orange-600" : "text-white")}>{title}</div>
     </div>
   );
 }
