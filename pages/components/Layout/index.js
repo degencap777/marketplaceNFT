@@ -16,11 +16,11 @@ function Layout({ children }) {
       <main>
         <div className="m-auto grid grid-cols-5">
           <div className={clsx(styles.sidemenu)}>
-            <SideMenu/>
+            <SideMenu />
           </div>
           <div className="col-span-4 mx-10">
             {children}
-            </div>
+          </div>
         </div>
       </main>
 

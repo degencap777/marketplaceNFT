@@ -55,9 +55,9 @@ export default function SideMenu() {
       </div>
 
       <div className="container mx-8">
-        <SideMenuItem icon="/home.png" title="Home"/>
-        <SideMenuItem icon="/submit.png" title="Submit"/>
-        <SideMenuItem icon="/portfolio.png" title="My Portfolio"/>
+        <SideMenuItem icon="/home.png" title="Home" />
+        <SideMenuItem icon="/submit.png" title="Submit" />
+        <SideMenuItem icon="/portfolio.png" title="My Portfolio" />
       </div>
     </>
   );

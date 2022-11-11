@@ -13,7 +13,7 @@ export default function SideMenuItem({ img, title }) {
         className={clsx("")}
       />
 
-      <div className="text-white p-2" style={{backgroundColor: "#282828"}}>{title}</div>
+      <div className="text-white p-2" style={{ backgroundColor: "#282828" }}>{title}</div>
     </div>
   );
 }
