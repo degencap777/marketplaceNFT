@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import clsx from 'clsx';
 
 import Header from "../Header";
-import Footer from "../Footer";
 import SideMenu from "../SideMenu";
 
 import styles from './Layout.module.css'
@@ -23,8 +22,6 @@ function Layout({ children }) {
           </div>
         </div>
       </main>
-
-      <Footer />
     </>
   );
 }

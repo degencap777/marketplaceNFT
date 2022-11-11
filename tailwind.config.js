@@ -6,7 +6,29 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        app: {
+          black: {
+            DEFAULT: '#373938',
+          },
+        }
+      },
+      placeholderColor: {
+        app: {
+          black: {
+            DEFAULT: '#707070',
+          },
+        }
+      },
+      textColor: {
+        app: {
+          black: {
+            DEFAULT: '#BBB5B5',
+          },
+        }
+      },
+    }
   },
   plugins: [],
 }
