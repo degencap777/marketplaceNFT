@@ -1,0 +1,17 @@
+.logo {
+  width: 100%;
+}
+
+.toggleBtn {
+  transform: translate(50%, 0);
+  background: #fb713a;
+}
+
+.connectBtn {
+  background: #fb713a;
+  font-family: "Campton";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.3924px;
+  line-height: 24px;
+}
