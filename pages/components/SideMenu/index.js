@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import clsx from "clsx";
 
 import styles from "./SideMenu.module.css";
 import SideMenuItem from "../SideMenuItem";
+import { SideMenuList } from "./dataList";
 
 export default function SideMenu() {
+  const [selectedSideMenu, setSelectedSideMenu] = useState(0);
+
+  const handleClick = (idx) => () => {
+    setSelectedSideMenu(idx);
+  }
   return (
     <>
       <div className="grid grid-cols-10">
@@ -55,9 +61,11 @@ export default function SideMenu() {
       </div>
 
       <div className="container mx-8">
-        <SideMenuItem icon="/home.png" title="Home" />
-        <SideMenuItem icon="/submit.png" title="Submit" />
-        <SideMenuItem icon="/portfolio.png" title="My Portfolio" />
+        {SideMenuList.map((menu, idx) => {
+          return (
+            <SideMenuItem key={idx} icon={menu.icon} idx={idx} title={menu.icon} selected={selectedSideMenu === idx} handleClick={handleClick(idx)} />
+          );
+        })}
       </div>
     </>
   );

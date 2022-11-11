@@ -20,3 +20,5 @@ const AppContextProvider = ({ children }) => {
 AppContextProvider.propTypes = {
   children: PropTypes.object,
 }
+
+export const useAppContext = () => useContext(AppContext);
