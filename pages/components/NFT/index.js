@@ -12,7 +12,6 @@ export default function SideMenuItem({ img, title }) {
         height={200}
         className={clsx("")}
       />
-
       <div className="text-white p-2" style={{ backgroundColor: "#282828" }}>{title}</div>
     </div>
   );

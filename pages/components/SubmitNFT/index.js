@@ -52,7 +52,7 @@ export default function SubmitNFT() {
             <div className="flex bg-app-black gap-1 h-9 items-center px-5">
               <h4 className="text-app-black-type">2,222</h4>
             </div>
-            <textarea className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 outline-none placeholder-app-black resize-none" placeholder={"Type Here...\n\u2BA0 To Add another Feature"} />
+            <textarea className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 outline-none placeholder-app-black resize-none" placeholder={"Type Here...\n↩To Add another Feature"} />
           </div>
           <div className="w-1/3 gap-1 flex flex-col">
             <div className="text-lg gap-1 flex">
@@ -65,7 +65,7 @@ export default function SubmitNFT() {
             <div className="flex bg-app-black gap-1 h-9 px-5 items-center">
               <h4 className="text-app-black-type">502</h4>
             </div>
-            <textarea className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 outline-none placeholder-app-black resize-none" placeholder={"Type Here...\n\u2BA0 To Add another Feature"} />
+            <textarea className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 outline-none placeholder-app-black resize-none" placeholder={"Type Here...\n↩To Add another Feature"} />
           </div>
           <div className="w-1/3 gap-1 flex flex-col">
             <div className="text-lg gap-1 flex">
@@ -78,7 +78,7 @@ export default function SubmitNFT() {
             <div className="flex bg-app-black gap-1 h-9 px-5 items-center">
               <h4 className="text-app-black-type">55</h4>
             </div>
-            <textarea className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 outline-none placeholder-app-black resize-none" placeholder={"Type Here...\n\u2BA0 To Add another Feature"} />
+            <textarea className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 outline-none placeholder-app-black resize-none" placeholder={"Type Here...\n↩To Add another Feature"} />
           </div>
         </div>
       </div>

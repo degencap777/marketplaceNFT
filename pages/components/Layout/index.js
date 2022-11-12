@@ -11,7 +11,6 @@ function Layout({ children }) {
   return (
     <>
       <Header />
-
       <main>
         <div className="m-auto grid grid-cols-5">
           <div className={clsx(styles.sidemenu)}>

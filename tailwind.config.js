@@ -11,7 +11,12 @@ module.exports = {
         app: {
           black: {
             DEFAULT: '#373938',
+            button: '#2A2A2A',
           },
+          orange: {
+            DEFAULT: '#FB713A',
+            dark: 'rgba(251, 113, 58, 0.72)',
+          }
         }
       },
       placeholderColor: {
@@ -32,6 +37,7 @@ module.exports = {
           },
           orange: {
             DEFAULT: '#FB713A',
+            type: '#C46139',
           },
         }
       },
