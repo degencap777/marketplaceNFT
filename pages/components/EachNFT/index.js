@@ -92,12 +92,18 @@ export default function EachNFT() {
                 <h1 className="text-4xl text-black">9300.611</h1>
               </div>
             </div>
-            <div className="flex flex-col gap-3 rounded-b-md bg-app-orange px-4 h-96 py-5">
-              <h3 className="text-xl">💎 First Dibs On All Central Cee Drops</h3>
-              <h3 className="text-xl">🛏 2-Night/3-Day Stay At Leonardo Hotel</h3>
-              <h3 className="text-xl">🥇 Vip Access On Next Live Show</h3>
-              <h3 className="text-xl">🤝 Virtual Meet-And-Greet With Central Cee</h3>
-              <h3 className="text-xl">👕 Signed Merch Package</h3>
+            <div className="flex flex-col rounded-b-md bg-app-orange px-4 h-96 py-5 justify-between">
+              <div className="flex flex-col gap-3">
+                <h3 className="text-xl">💎 First Dibs On All Central Cee Drops</h3>
+                <h3 className="text-xl">🛏 2-Night/3-Day Stay At Leonardo Hotel</h3>
+                <h3 className="text-xl">🥇 Vip Access On Next Live Show</h3>
+                <h3 className="text-xl">🤝 Virtual Meet-And-Greet With Central Cee</h3>
+                <h3 className="text-xl">👕 Signed Merch Package</h3>
+              </div>
+              <div className="flex justify-between">
+                <div className="bg-app-black-button flex justify-center items-center rounded-md px-6 py-3">BUY</div>
+                <h4 className="flex items-center text-lg">199 Available</h4>
+              </div>
             </div>
           </div>
         </div>
