@@ -1,6 +1,6 @@
 export default function SubmitNFT() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col py-12">
       <h4 className="text-white mb-2">NFT NAME</h4>
       <div className="flex gap-5">
         <input className="w-1/2 placeholder-app-black rounded px-4 flex py-2 bg-app-black outline-none text-white text-xl font-semibold" placeholder="Insert Artist Name" />
@@ -52,9 +52,7 @@ export default function SubmitNFT() {
             <div className="flex bg-app-black gap-1 h-9 items-center px-5">
               <h4 className="text-app-black-type">2,222</h4>
             </div>
-            <div className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 text-app-black-type">
-              <h6>Type Here...<br /><span className="text-xl">&#11168;</span> To Add another Feature</h6>
-            </div>
+            <textarea className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 outline-none placeholder-app-black resize-none" placeholder={"Type Here...\n\u2BA0 To Add another Feature"} />
           </div>
           <div className="w-1/3 gap-1 flex flex-col">
             <div className="text-lg gap-1 flex">
@@ -67,9 +65,7 @@ export default function SubmitNFT() {
             <div className="flex bg-app-black gap-1 h-9 px-5 items-center">
               <h4 className="text-app-black-type">502</h4>
             </div>
-            <div className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 text-app-black-type">
-              <h6>Type Here...<br /><span className="text-xl">&#11168;</span> To Add another Feature</h6>
-            </div>
+            <textarea className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 outline-none placeholder-app-black resize-none" placeholder={"Type Here...\n\u2BA0 To Add another Feature"} />
           </div>
           <div className="w-1/3 gap-1 flex flex-col">
             <div className="text-lg gap-1 flex">
@@ -82,9 +78,7 @@ export default function SubmitNFT() {
             <div className="flex bg-app-black gap-1 h-9 px-5 items-center">
               <h4 className="text-app-black-type">55</h4>
             </div>
-            <div className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 text-app-black-type">
-              <h6>Type Here...<br /><span className="text-xl">&#11168;</span> To Add another Feature</h6>
-            </div>
+            <textarea className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 outline-none placeholder-app-black resize-none" placeholder={"Type Here...\n\u2BA0 To Add another Feature"} />
           </div>
         </div>
       </div>
@@ -118,7 +112,6 @@ export default function SubmitNFT() {
         <svg width="26" height="41" viewBox="0 0 26 41" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" clip-rule="evenodd" d="M5.63278 40.7074L0.559122 35.6292L15.7892 20.3945L0.559122 5.16074L5.63734 0.0825195L25.9457 20.3945L5.63278 40.7074Z" fill="#FB713A" />
         </svg>
-
       </div>
     </div>
   )
