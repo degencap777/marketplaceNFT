@@ -1,5 +1,3 @@
-
-
 export default function SubmitNFT() {
   return (
     <div className="flex flex-col">
