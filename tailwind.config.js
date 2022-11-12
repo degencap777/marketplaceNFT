@@ -25,6 +25,13 @@ module.exports = {
         app: {
           black: {
             DEFAULT: '#BBB5B5',
+            type: '#707070',
+          },
+          blue: {
+            DEFAULT: '#61BDFF',
+          },
+          orange: {
+            DEFAULT: '#FB713A',
           },
         }
       },

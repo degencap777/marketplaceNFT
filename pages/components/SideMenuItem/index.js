@@ -26,7 +26,7 @@ export default function SideMenuItem({ select, icon, title, selected, handleClic
       }
 
 
-      <div className={"col-span-3 ml-5 " + (selected ? "text-orange-600" : "text-white")}>{title}</div>
+      <div className={"col-span-3 ml-5 " + (selected ? "text-app-orange" : "text-white")}>{title}</div>
     </div>
   );
 }

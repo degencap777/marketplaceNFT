@@ -13,6 +13,11 @@ body {
     background: linear-gradient(180deg, #2A2A2A 0%, #191919 100%);
 }
 
+@font-face {
+  font-family: "Campton";
+  src: url(../public/CamptonBlack.otf);
+}
+
 a {
   color: inherit;
   text-decoration: none;
