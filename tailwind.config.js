@@ -12,6 +12,7 @@ module.exports = {
           black: {
             DEFAULT: '#373938',
             button: '#2A2A2A',
+            dark: '#222222',
           },
           orange: {
             DEFAULT: '#FB713A',
