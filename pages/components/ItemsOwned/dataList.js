@@ -1,10 +1,7 @@
-import NFT1 from "../../../public/nft1.png";
-import NFT2 from "../../../public/nft2.png";
-
 export const NFTDetailList = [
   {
     id: 1,
-    src: NFT1,
+    src: "/nft1.png",
     title: "CENTRAL CEE",
     fee: "0.0433%",
     bundle: "1 BASIC BUNDLES",
@@ -12,7 +9,7 @@ export const NFTDetailList = [
   },
   {
     id: 2,
-    src: NFT2,
+    src: "/nft2.png",
     title: "SHALO",
     fee: "0.4%",
     bundle: "2 LUXURY BUNDLES",

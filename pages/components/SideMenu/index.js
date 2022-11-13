@@ -13,7 +13,7 @@ export default function SideMenu() {
     setSelectedSideMenu(idx);
   }
   return (
-    <>
+    <div className="min-h-screen">
       <div className="grid grid-cols-10">
         <Image
           src={"/logo.svg"}
@@ -67,6 +67,6 @@ export default function SideMenu() {
           );
         })}
       </div>
-    </>
+    </div>
   );
 }
