@@ -6,7 +6,7 @@ export default function EachNFT() {
     <div className="flex flex-col gap-3 py-12">
       <div className="flex">
         <div className="flex gap-2 flex-col w-1/4">
-          <h2 className="text-3xl font-medium" style={{ fontFamily: "Furore" }}>CENTRAL CEE</h2>
+          <h2 className="text-4xl font-medium" style={{ fontFamily: "Furore" }}>CENTRAL CEE</h2>
           <Image src={NFTImage} alt="image" title="NFTImage" />
         </div>
         <div className="px-8 rounded-md flex justify-between items-center w-3/4 bg-app-black">
@@ -17,7 +17,7 @@ export default function EachNFT() {
       </div>
       <div className="grid grid-cols-3 gap-16 py-12">
         <div className="flex flex-col gap-5">
-          <h1 className="text-3xl font-bold">Basic Bundle</h1>
+          <h1 className="text-3xl" style={{fontFamily: 'Campton'}}>Basic Bundle</h1>
           <div className="flex flex-col gap-1">
             <div className="flex rounded-t-md bg-app-black px-4 justify-between items-center h-20">
               <div className="flex flex-col gap-1">
@@ -44,7 +44,7 @@ export default function EachNFT() {
           </div>
         </div>
         <div className="flex flex-col gap-5">
-          <div className="text-3xl font-bold gap-2 flex">
+          <div className="text-3xl gap-2 flex" style={{fontFamily: 'Campton'}}>
             <h1 className="text-app-orange-type">Premium</h1>
             <h1>Bundle</h1>
           </div>
@@ -75,7 +75,7 @@ export default function EachNFT() {
           </div>
         </div>
         <div className="flex flex-col gap-5">
-          <div className="flex text-3xl font-bold gap-2">
+          <div className="flex text-3xl gap-2" style={{fontFamily: 'Campton'}}>
             <h1 className="text-app-orange">Luxury</h1>
             <h1>Bundle</h1>
           </div>

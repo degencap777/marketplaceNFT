@@ -1,17 +1,17 @@
 export default function SubmitNFT() {
   return (
-    <div className="flex flex-col py-12">
+    <div className="flex flex-col py-12" style={{ fontFamily: 'Campton' }}>
       <h4 className="text-white mb-2">NFT NAME</h4>
       <div className="flex gap-5">
-        <input className="w-1/2 placeholder-app-black rounded px-4 flex py-2 bg-app-black outline-none text-white text-xl font-semibold" placeholder="Insert Artist Name" />
+        <input className="w-1/2 placeholder-app-black rounded px-4 flex py-2 bg-app-black outline-none text-white text-xl font-medium" placeholder="Insert Artist Name" />
         <div className="flex gap-5 w-1/2">
-          <div className="flex w-1/2 items-center justify-center rounded bg-app-black gap-1 hover:cursor-pointer">
-            <h1 className="text-white font-bold text-xl">Upload</h1>
-            <h1 className="text-app-orange font-bold text-xl">.pptx file*</h1>
+          <div className="flex w-1/2 items-center justify-center rounded bg-app-black gap-1 hover:cursor-pointer font-medium">
+            <h1 className="text-white text-xl">Upload</h1>
+            <h1 className="text-app-orange text-xl">.pptx file*</h1>
           </div>
-          <div className="flex w-1/2 items-center justify-center rounded bg-app-black gap-1 hover:cursor-pointer">
-            <h2 className="text-white font-bold text-xl">Upload</h2>
-            <h2 className="text-app-orange font-bold text-xl">IMAGE*</h2>
+          <div className="flex w-1/2 items-center justify-center rounded bg-app-black gap-1 hover:cursor-pointer font-medium">
+            <h2 className="text-white text-xl">Upload</h2>
+            <h2 className="text-app-orange text-xl">IMAGE*</h2>
           </div>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function SubmitNFT() {
       </div>
       <div className="flex gap-3">
         <div className="flex flex-col w-1/4 gap-1">
-          <h2 className="text-lg">Answer Questioins</h2>
+          <h2 className="text-xl">Answer Questioins</h2>
           <div className="flex rounded-t-md bg-app-black gap-1 h-9 justify-end items-center pr-3">
             <h4 className="text-app-orange font-medium text-lg">Price</h4>
             <h4 className="text-lg font-medium">Per Token</h4>
@@ -45,7 +45,7 @@ export default function SubmitNFT() {
         </div>
         <div className="flex w-3/4 gap-1">
           <div className="w-1/3 gap-1 flex flex-col">
-            <h2 className="text-lg">Basic Bundle</h2>
+            <h2 className="text-xl">Basic Bundle</h2>
             <div className="flex rounded-t-md bg-app-black gap-1 h-9 items-center px-5">
               99
             </div>
@@ -55,7 +55,7 @@ export default function SubmitNFT() {
             <textarea className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 outline-none placeholder-app-black resize-none" placeholder={"Type Here...\n↩To Add another Feature"} />
           </div>
           <div className="w-1/3 gap-1 flex flex-col">
-            <div className="text-lg gap-1 flex">
+            <div className="text-xl gap-1 flex">
               <h2 className="text-app-blue">Premium</h2>
               <h2>Bundle</h2>
             </div>
@@ -68,7 +68,7 @@ export default function SubmitNFT() {
             <textarea className="pt-1 h-52 bg-app-black rounded-b flex flex-col px-5 outline-none placeholder-app-black resize-none" placeholder={"Type Here...\n↩To Add another Feature"} />
           </div>
           <div className="w-1/3 gap-1 flex flex-col">
-            <div className="text-lg gap-1 flex">
+            <div className="text-xl gap-1 flex">
               <h2 className="text-app-orange">Luxury</h2>
               <h2>Bundle</h2>
             </div>

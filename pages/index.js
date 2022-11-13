@@ -9,7 +9,7 @@ import ItemsOwned from './components/ItemsOwned';
 export default function Home() {
   return (
     <Layout>
-      <ItemsOwned />
+      <SubmitNFT />
     </Layout>
   )
 }
