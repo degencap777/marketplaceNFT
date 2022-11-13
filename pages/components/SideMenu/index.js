@@ -1,17 +1,12 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import clsx from "clsx";
-
 import styles from "./SideMenu.module.css";
 import SideMenuItem from "../SideMenuItem";
 import { SideMenuList } from "./dataList";
 
 export default function SideMenu() {
-  const [selectedSideMenu, setSelectedSideMenu] = useState(0);
 
-  const handleClick = (idx) => () => {
-    setSelectedSideMenu(idx);
-  }
   return (
     <div className="min-h-screen">
       <div className="grid grid-cols-10">
@@ -59,11 +54,10 @@ export default function SideMenu() {
           Connect Wallet
         </button>
       </div>
-
       <div className="container flex flex-col mx-8">
         {SideMenuList.map((menu, idx) => {
           return (
-            <SideMenuItem key={idx} select={menu.select} icon={menu.icon} idx={idx} title={menu.title} selected={selectedSideMenu === idx} handleClick={handleClick(idx)} />
+            <SideMenuItem key={idx} select={menu.select} icon={menu.icon} idx={idx} title={menu.title} url={menu.url} />
           );
         })}
       </div>
