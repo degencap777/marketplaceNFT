@@ -14,11 +14,12 @@ const AppContextProvider = ({ children }) => {
     >
       {children}
     </AppContext.Provider>
-  )
-}
+  );
+};
 
 AppContextProvider.propTypes = {
   children: PropTypes.object,
-}
+};
 
+export default AppContextProvider;
 export const useAppContext = () => useContext(AppContext);
