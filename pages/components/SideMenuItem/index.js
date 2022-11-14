@@ -4,9 +4,8 @@ import Image from "next/image";
 import clsx from "clsx";
 import { useRouter } from "next/router";
 
-export default function SideMenuItem({ select, icon, title, selected, handleClick, url }) {
+export default function SideMenuItem({ select, icon, title, handleClick, url }) {
   const router=useRouter()
-  console.log(router.pathname)
   return (
     <Link href={url}>
       <div className="flex my-5 items-center hover:cursor-pointer" onClick={handleClick}>

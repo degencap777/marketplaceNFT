@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Image from "next/image";
 import clsx from "clsx";
 import styles from "./SideMenu.module.css";
@@ -6,7 +5,6 @@ import SideMenuItem from "../SideMenuItem";
 import { SideMenuList } from "./dataList";
 
 export default function SideMenu() {
-
   return (
     <div className="min-h-screen">
       <div className="grid grid-cols-10">
@@ -47,7 +45,7 @@ export default function SideMenu() {
       <div className="grid grid-cols-10 my-10">
         <button
           className={clsx(
-            "col-start-2 col-span-8 h-9 rounded-lg text-white",
+            "col-start-2 col-span-8 h-9 rounded-lg",
             styles.connectBtn
           )}
         >

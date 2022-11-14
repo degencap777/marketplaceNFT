@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import clsx from "clsx";
 
 import NFT from "../NFT";
 
@@ -26,7 +25,7 @@ export default function NFTList() {
   const [nfts] = useState(NFTs);
   return (
     <>
-      <h1 className="text-white text-3xl mt-20 mb-10" style={{ fontFamily: 'Campton' }}>NFTs for Sale</h1>
+      <h1 className="text-5xl mt-20 mb-10" style={{ fontFamily: 'Campton' }}>NFTs for Sale</h1>
       <div className="flex flex-wrap">
         {nfts.map((nft, idx) => (
           <NFT key={idx} {...nft} />

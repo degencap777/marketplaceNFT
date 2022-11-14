@@ -1,33 +1,33 @@
 export default function SubmitNFT() {
   return (
     <div className="flex flex-col py-12" style={{ fontFamily: 'Campton' }}>
-      <h4 className="text-white mb-2">NFT NAME</h4>
+      <h4 className="mb-2">NFT NAME</h4>
       <div className="flex gap-5">
-        <input className="w-1/2 placeholder-app-black rounded px-4 flex py-2 bg-app-black outline-none text-white text-xl font-medium" placeholder="Insert Artist Name" />
+        <input className="w-1/2 placeholder-app-black rounded px-4 flex py-2 bg-app-black outline-none text-xl font-medium" placeholder="Insert Artist Name" />
         <div className="flex gap-5 w-1/2">
           <div className="flex w-1/2 items-center justify-center rounded bg-app-black gap-1 hover:cursor-pointer font-medium">
-            <h1 className="text-white text-xl">Upload</h1>
+            <h1 className="text-xl">Upload</h1>
             <h1 className="text-app-orange text-xl">.pptx file*</h1>
           </div>
           <div className="flex w-1/2 items-center justify-center rounded bg-app-black gap-1 hover:cursor-pointer font-medium">
-            <h2 className="text-white text-xl">Upload</h2>
+            <h2 className="text-xl">Upload</h2>
             <h2 className="text-app-orange text-xl">IMAGE*</h2>
           </div>
         </div>
       </div>
       <div className="flex gap-32 my-7">
         <div className="flex flex-col gap-3 w-1/2">
-          <h4 className="text-white">Total Amount Raising</h4>
+          <h4>Total Amount Raising</h4>
           <div className="flex gap-2">
             <div className="rounded-l flex items-center text-app-orange bg-app-black px-3">$</div>
-            <div className="rounded-r flex items-center px-2 text-white bg-app-black py-2 w-full">220,000</div>
+            <div className="rounded-r flex items-center px-2 bg-app-black py-2 w-full">220,000</div>
           </div>
         </div>
         <div className="flex flex-col gap-3 w-1/2">
-          <h4 className="text-white">Ownership Offering</h4>
+          <h4>Ownership Offering</h4>
           <div className="flex gap-2">
             <div className="rounded-l flex items-center text-app-orange bg-app-black px-3">%</div>
-            <div className="rounded-r flex items-center px-2 text-white bg-app-black py-2 w-full">30</div>
+            <div className="rounded-r flex items-center px-2 bg-app-black py-2 w-full">30</div>
           </div>
         </div>
       </div>
