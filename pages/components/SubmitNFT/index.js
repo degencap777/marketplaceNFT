@@ -1,10 +1,13 @@
 import React from 'react';
+import Link from "next/link";
 
 export default function SubmitNFT() {
 
   const fileRef = React.useRef();
+  const imageRef = React.useRef();
   let [file, setFile] = React.useState();
   let [image, setImage] = React.useState();
+
   const handleChange = (event) => {
     setFile(event.target.files[0]);
   };
@@ -19,7 +22,7 @@ export default function SubmitNFT() {
       <div className="flex gap-5">
         <input className="w-1/2 placeholder-app-black rounded px-4 flex py-2 bg-app-black outline-none text-xl font-medium" placeholder="Insert Artist Name" />
         <div className="flex gap-5 w-1/2">
-          <button className="flex w-1/2 items-center justify-center rounded bg-app-black gap-1 hover:cursor-pointer font-medium" onClick={() => fileRef.current.click()}>
+          <button className="flex w-1/2 items-center justify-center rounded bg-app-black gap-1 hover:cursor-pointer font-medium" onClick={() => { fileRef.current.click() }}>
             <h1 className="text-xl">Upload</h1>
             <h1 className="text-app-orange text-xl">.pptx file*</h1>
             <input id="upload" name="upload" type="file" ref={fileRef} hidden
@@ -30,10 +33,10 @@ export default function SubmitNFT() {
               <p className='text-sm'>{file.name}</p>
             </div>
           }
-          <button className="flex w-1/2 items-center justify-center rounded bg-app-black gap-1 hover:cursor-pointer font-medium" onClick={() => fileRef.current.click()}>
+          <button className="flex w-1/2 items-center justify-center rounded bg-app-black gap-1 hover:cursor-pointer font-medium" onClick={() => imageRef.current.click()}>
             <h2 className="text-xl">Upload</h2>
             <h2 className="text-app-orange text-xl">IMAGE*</h2>
-            <input id="uploadimage" name="uploadimage" type="file" ref={fileRef} hidden
+            <input id="uploadimage" name="uploadimage" type="file" ref={imageRef} hidden
               onChange={handleImage} />
           </button>
           {image && image !== undefined && image !== null &&
@@ -135,12 +138,14 @@ export default function SubmitNFT() {
           <h2 className="w-3/4 px-12 bg-app-black rounded-br text-app-black-type flex items-center text-xl">Automatically Added</h2>
         </div>
       </div>
-      <div className="flex gap-12 text-app-orange justify-end">
-        <h1 className="text-4xl font-semibold">List NFT</h1>
-        <svg width="26" height="41" viewBox="0 0 26 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M5.63278 40.7074L0.559122 35.6292L15.7892 20.3945L0.559122 5.16074L5.63734 0.0825195L25.9457 20.3945L5.63278 40.7074Z" fill="#FB713A" />
-        </svg>
-      </div>
+      <Link href="/myportfolio">
+        <div className="flex gap-12 text-app-orange justify-end">
+          <h1 className="text-4xl font-semibold">List NFT</h1>
+          <svg width="26" height="41" viewBox="0 0 26 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.63278 40.7074L0.559122 35.6292L15.7892 20.3945L0.559122 5.16074L5.63734 0.0825195L25.9457 20.3945L5.63278 40.7074Z" fill="#FB713A" />
+          </svg>
+        </div>
+      </Link>
     </div>
   )
 }
