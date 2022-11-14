@@ -5,6 +5,7 @@ import SideMenuItem from "../SideMenuItem";
 import { SideMenuList } from "./dataList";
 
 export default function SideMenu() {
+
   return (
     <div className="min-h-screen">
       <div className="grid grid-cols-10">
@@ -52,6 +53,7 @@ export default function SideMenu() {
           Connect Wallet
         </button>
       </div>
+
       <div className="container flex flex-col mx-8">
         {SideMenuList.map((menu, idx) => {
           return (
